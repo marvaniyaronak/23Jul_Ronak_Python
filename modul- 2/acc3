@@ -1,0 +1,8 @@
+# n=int(input("enter the number :"))
+
+def fib(n):
+   n=5
+   return (fib(n-1) + fib(n-2))
+   print(n)
+   
+
