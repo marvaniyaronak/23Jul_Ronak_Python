@@ -1,4 +1,4 @@
-
+# the pogram is factorial number
 from math import factorial
 num=int(input("enter the number: "))
 factorial=1

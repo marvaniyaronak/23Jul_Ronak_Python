@@ -1,8 +1,15 @@
-# n=int(input("enter the number :"))
+# the pogram is Fibonacci number
+def Fibonacci(n):
 
-def fib(n):
-   n=5
-   return (fib(n-1) + fib(n-2))
-   print(n)
-   
+	
+	if n < 0:
+		print("Incorrect input")
+	elif n == 0:
+		return 0
+	elif n == 1 or n == 2:
+		return 1
+	else:
+		return Fibonacci(n-1) + Fibonacci(n-2)
+
+print(Fibonacci(9))
 
