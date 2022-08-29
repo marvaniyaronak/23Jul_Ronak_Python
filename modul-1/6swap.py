@@ -1,4 +1,4 @@
-#the syping pogram using thard number 
+#the swaping pogram using thard number 
 '''a=int(input("enter your value :"))
 b=int(input("enter your value :"))
 c=a
